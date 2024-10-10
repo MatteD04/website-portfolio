@@ -6,18 +6,18 @@ export default {
 
 <template>
     <div class="ms-header">
-        <ul class="nav ms-navbar">
+        <ul class="nav ms-navbar nav-underline">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <router-link class="nav-link link-dark" :to="{name: 'home'}">Home</router-link>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <router-link class="nav-link link-dark" :to="{name: 'about'}">About</router-link>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <router-link class="nav-link link-dark" :to="{name: 'projects'}">Projects</router-link>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
+                <router-link class="nav-link link-dark" :to="{name: 'contacts'}">Contacts</router-link>
             </li>
         </ul>
     </div>
